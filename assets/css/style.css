@@ -2,7 +2,7 @@
     --font-family: 'Roboto', sans-serif;
     --weight: 700;
 
-    --background-color: #BA1D12;
+    --background-color: #a5190f;
     --color-white: #ffffff;
     --black-medium: #1B1B1B;
     --color-blue: #081F2E;
@@ -22,7 +22,7 @@ body{
 }
 
 .header__img{
-    width: 8.125rem;
+    display: none;
 }
 
 main{
@@ -61,10 +61,6 @@ main{
 
 
 @media (min-width:320px){
-    .header__img{
-        margin-left: var(--margin-10px);
-    }
-
     .main__titulo{
         font-size: 1.4rem;
     }
@@ -95,6 +91,8 @@ main{
 
 @media (min-width:768px){
     .header__img{
+        display: block;
+        width: 10.125rem;
         margin-left: var(--margin-20px);
     }
 
