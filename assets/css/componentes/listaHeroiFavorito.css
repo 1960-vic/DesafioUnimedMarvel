@@ -1,0 +1,16 @@
+.main__lista-favorito{
+    width: 20%;
+    height: 600px;
+    background-color: var(--color-white);
+    border-radius: var(--border-radius);
+    box-shadow: 0.3125rem 0.3125rem 0.3125rem #333232;
+}
+
+.main__lista-titulo{
+    font-family: var(--font-family);
+    font-size: 16px;
+    text-align: center;
+    color: var(--color-blue);
+    padding-top: 20px;
+    font-weight: var(--weight);
+}

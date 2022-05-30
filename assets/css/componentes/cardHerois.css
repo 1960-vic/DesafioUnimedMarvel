@@ -1,4 +1,5 @@
 .card__container{
+    width: 15.625rem;
     border: 0.03125rem solid var(--black-medium);
     border-radius: var(--border-radius);
     
@@ -19,6 +20,13 @@
     text-align: center;
 }
 
+.card__descricao{
+    padding: 0 10px 10px 10px;
+    font-family: var(--font-family);
+    text-align: justify;
+    
+}
+
 .card__button{
     width: 7.8125rem;
     padding: .5rem;
@@ -30,6 +38,19 @@
     border-radius: .25rem;
     margin-bottom: var(--margin-10px);
     margin-left: var(--margin-10px);
+}
+
+.card__button:hover{
+    background-color: #3768c4;
+}
+
+.card__votos{
+    font-family: var(--font-family);
+    color: var(--black-medium);
+    font-weight:  var(--weight);
+    margin-bottom: var(--margin-10px);
+    margin-left: var(--margin-10px);
+    font-size: 1rem;
 }
 
 @media (min-width:320px){
